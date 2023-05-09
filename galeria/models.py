@@ -1,7 +1,7 @@
 from django.db import models
 
 # Create your models here.
-#Lembrar de realizar o makemigration caso faça alterações nos modelos
+#Lembrar de realizar o makemigration caso faça alterações nos modelos 
 class Fotografia(models.Model):
 
     OPCOES_CATEGORIA = [
