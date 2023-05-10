@@ -23,5 +23,5 @@ class Fotografia(models.Model):
     #boa pratica
  
     def __str__(self):
-        return f'Fotografia [nome={self.nome}]'
+        return self.nome
 
